@@ -1,0 +1,13 @@
+{
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "scripts": {
+        "scss": "node-sass --watch scss -o css"
+    },
+    "dependencies": {
+        "node-sass": "^6.0.1"
+    }
+}

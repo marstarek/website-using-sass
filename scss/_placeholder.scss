@@ -1,0 +1,42 @@
+    %contain {
+        width: 90%;
+        max-width: 1440;
+        margin: 0 auto;
+    }
+    
+    %flex {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    %pstyle {
+        font-size: $pfontsize;
+        color: #988f92;
+        line-height: 1.7;
+        margin-bottom: 2em;
+    }
+    
+    %h2style {
+        font-size: $h2fontsize;
+        color: #252525;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    
+    %h3style {
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    %storbtn {
+        border-radius: 6px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #ffffff !important;
+        width: 181px !important;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 1.2em;
+    }
